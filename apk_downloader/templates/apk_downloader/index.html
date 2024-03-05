@@ -1,0 +1,12 @@
+{% extends 'apk_downloader/base.html' %}
+
+{% block content %}
+<h1>Available APKs</h1>
+<ul>
+{% for apk in apks %}
+    <li>
+        <a href="{% url 'download_apk' apk.id %}">{{ apk.name }}</a> (Downloaded {{ apk.downloads }} times)
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}
