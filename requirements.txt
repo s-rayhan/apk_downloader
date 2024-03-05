@@ -1,0 +1,2 @@
+django~=4.2.7  # Replace '~' with specific version if desired
+django-crispy-forms~=1.13.0  # Optional, for styling forms (comment out if not used)
