@@ -1,1 +1,1 @@
-# django-apk
+# apk_downloader
